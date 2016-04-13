@@ -33,11 +33,11 @@ if(answer5.toUpperCase() === 'HAMLET'){
 // output results
 document.write("<p> you scored</p>"+correct+"/5");
 if(correct <= 3){
- document.write(<img src="rocks.jpg">);
+ document.write("<h1>Rocks, they are smarter than you</h1>");
 }
 if(correct = 4){
- document.write(<img src="ringer.jpg">);
+ document.write("<h1>You are smarter than your average rock!</h1>");
 }
 if(correct = 5){
- document.write(<img src="sponge.jpg">);
+ document.write("<h1>You aren't as dumb as rocks. Congradulations.</h1>");
 }
