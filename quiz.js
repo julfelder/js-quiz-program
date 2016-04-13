@@ -31,4 +31,4 @@ if(answer5.toUpperCase() === 'HAMLET'){
  correct +=1;
 }
 // output results
-document.write("<p> you scored</p> + correct");
+document.write("<p> you scored</p>"+correct+"/5");
