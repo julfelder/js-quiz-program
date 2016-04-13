@@ -32,3 +32,12 @@ if(answer5.toUpperCase() === 'HAMLET'){
 }
 // output results
 document.write("<p> you scored</p>"+correct+"/5");
+if(correct <= 3){
+ document.write(<img src="rocks.jpg">);
+}
+if(correct = 4){
+ document.write(<img src="ringer.jpg">);
+}
+if(correct = 5){
+ document.write(<img src="sponge.jpg">);
+}
