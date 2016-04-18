@@ -31,17 +31,17 @@ question("asking some question", "TEST");
 //  correct += 1; 
 // }
 
-// // output results
-// document.write("<p>You got " + correct + " out of 5 questions correct.<p>");
+// output results
+document.write("<p>You got " + correct + " out of 5 questions correct.<p>");
 
-// // output rank
-// if ( correct === 5 ) {
-//   document.write("<p><strong>You earned a gold crown!</strong></p>");  
-// } else if (correct > 3) {
-//   document.write("<p><strong>You earned a silver crown.</strong></p>");  
-// } else if (correct > 2) {
-//   document.write("<p><strong>You earned a bronze crown.</strong></p>");  
-// } else {
-//   document.write("<p><strong>No crown for you. You need to study.</strong></p>");
-// }
+// output rank
+if ( correct === 5 ) {
+  document.write("<p><strong>You earned a gold crown!</strong></p>");  
+} else if (correct > 3) {
+  document.write("<p><strong>You earned a silver crown.</strong></p>");  
+} else if (correct > 2) {
+  document.write("<p><strong>You earned a bronze crown.</strong></p>");  
+} else {
+  document.write("<p><strong>No crown for you. You need to study.</strong></p>");
+}
                
